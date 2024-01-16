@@ -1,4 +1,5 @@
 body {
+    /* Commit all */
     background: rgba(0, 0, 0, 0.9);
     margin: 0;
     color: #fff;
@@ -81,8 +82,9 @@ body {
 
 
 }
-.logo:hover{
-    transform: scale(1.1) ;
+
+.logo:hover {
+    transform: scale(1.1);
     box-shadow: 0px 0px 4px 4.5px white;
 }
 
@@ -93,34 +95,40 @@ body {
     margin-top: 1rem;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.1em solid black; /* Cursor */
+    border-right: 0.1em solid black;
+    /* Cursor */
     animation: typeAndDelete 7s steps(30) infinite,
-      blinkCursor 0.5s step-end infinite alternate;
- 
-    
+        blinkCursor 0.5s step-end infinite alternate;
+
+
 }
+
 @keyframes blinkCursor {
     50% {
-      border-right-color: transparent;
+        border-right-color: transparent;
     }
-  }
-  
-  @keyframes typeAndDelete {
+}
+
+@keyframes typeAndDelete {
+
     0%,
     10% {
         width: 0;
     }
+
     45%,
     55% {
-        width: 8.3em; /* Adjust based on the length of your text */
+        width: 8.3em;
+        /* Adjust based on the length of your text */
     }
+
     90%,
     100% {
         width: 0;
     }
 }
 
-  
+
 
 .content .text {
     line-height: 1.7;
@@ -134,18 +142,21 @@ body {
     overflow: hidden;
     padding: 4rem 1rem;
 }
-.container #res{
+
+.container #res {
     height: 50px;
 }
-.container p a{
+
+.container p a {
     padding: 7px;
     margin-top: 5px;
-    background-color:  #333 ;
+    background-color: #333;
     color: white;
     cursor: pointer;
     border-radius: 25px;
 }
-.container a{
+
+.container a {
     color: white;
     text-decoration: none;
 }
